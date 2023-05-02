@@ -1,0 +1,228 @@
+header {
+    background-image: url(fog-4597348_1920.jpg);
+    scroll-behavior: smooth;
+}
+
+/* Header */
+
+.box_header {
+    min-width: 100%;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.inside {
+    margin-top: 80px;
+    width: 1000px;
+    height: 600px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(86, 6, 161);
+    border-radius: 25px 0px 0px 25px;
+}
+
+#photo {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.left_photo {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letf_desc p {
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+
+#low {
+    font-size: 25px;
+}
+
+.right {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    width: 50%;
+}
+
+h1 {
+    padding: 2%;
+    text-align: center;
+    font-size: 45px;
+}
+
+.right h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.right_desc li{
+    margin-top: 30px;
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+nav ul {
+    margin-top: 75px;
+    list-style: none;
+}
+
+nav li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.right_nav .right_ul li a:hover {
+    color: orangered;
+}
+
+/* Sobre mim */
+
+.box_main {
+    display: flex;
+    min-width: 100%;
+    min-height: 800px;
+    background-color: purple;
+    flex-direction:column;
+}
+
+.box_main_top {
+    margin-bottom: 15px;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+}
+
+.box_main_top_left {
+    width: 100%;
+}
+
+#photo2 {
+    width: 100%;
+    height: 100%;
+}
+
+.box_main_top_right {
+    width: 100%;
+    background-color:rgb(122, 76, 122);
+}
+
+.box_main_top_right h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.box_main_top_right p {
+    padding: 2%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box_main_bottom {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: #ae59a7;
+}
+
+.box_main_bottom_right {
+    width: 100%;
+}
+
+.box_main_bottom_left {
+    
+    width: 100%;
+}
+
+.box_main_bottom_left h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.box_main_bottom_left p {
+    padding: 2%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+/* Skills */
+
+.skills_box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    min-width: 100%;
+    min-height: 1080px;
+}
+
+.skills_box_hard {
+    padding: 2%;
+    background-color: blue;
+    border-radius: 5%;
+    width: 90%;
+    height: 350px;
+}
+
+.skills_box_hard h2{
+    text-align: center;
+    font-size: 25px;
+    color:orangered;
+}
+
+.skills_box_hard ul {
+    margin-top: 3.5%;
+    text-align: center;
+}
+
+.skills_box_hard ul li {
+    color: white;
+    font-size: 25px;
+    padding: 1.5%;
+}
+
+.skills_box_soft {
+    margin-top: 5%;
+    padding: 1%;
+    background-color: orangered;
+    border-radius: 5%;
+    width: 92.5%;
+    height: 350px;
+}
+
+.skills_box_soft h2 {
+    text-align: center;
+    font-size: 25px;
+    color: blue;   
+}
+
+.skills_box_soft ul {
+    margin-top: 3.5%;
+    text-align: center;
+}
+
+.skills_box_soft ul li {
+    color: white;
+    font-size: 25px;
+    padding: 0.9%;
+}
